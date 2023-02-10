@@ -1,0 +1,57 @@
+@font-face 
+{font-family:'Vasek';
+    src: local('Vasek'), 
+    url('/fonts/VasekItalic.ttf');
+}
+
+@font-face 
+{font-family:'AmaticSC-Bold';
+    src: local('AmaticSC-Bold'), 
+    url('/fonts/AmaticSC-Bold.ttf');
+}
+
+@font-face 
+{font-family:'AmaticSC-Regular';
+    src: local('AmaticSC-Regular'), 
+    url('/fonts/AmaticSC-Regular.ttf');
+}
+
+body {
+background-color: antiquewhite;
+margin-left: auto;
+margin-right: auto;
+width: 60em
+
+}
+h1{
+    font-family: 'AmaticSC-Bold';
+color: blue;
+}
+
+h3{
+font-family: 'Vasek';
+font-size: 30px;
+color: black;
+}
+
+p, li{
+color: blueviolet;
+}
+
+img{
+width: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content:  "—";
+    position: relative;
+    left:     -5px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
